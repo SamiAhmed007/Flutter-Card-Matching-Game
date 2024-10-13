@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import './providers/game_state.dart';
 import './widgets/card_grid.dart';
+import 'dart:ui' show lerpDouble;
 
 void main() {
   runApp(MyApp());
